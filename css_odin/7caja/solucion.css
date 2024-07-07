@@ -1,0 +1,187 @@
+
+body{
+    border: 2px solid red;
+}
+.box{
+    outline: 2px solid rgb(216, 14, 14);
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+
+.uno{
+background-color: rgb(226, 192, 41);
+border: 20px solid purple;
+margin: 40px;
+padding: 20px ;
+text-align: center;
+width: 100px;
+height: 50px;
+
+}
+
+.dos{
+    background-color: blue;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+
+.text-uno{
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 20px;
+    margin: 40px;
+    width: 900px;
+    border: 10px solid yellow;
+}
+
+.text-dos{
+    
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    color: slategray;
+    margin: 40px;
+    padding: 20px;
+    border: 10px solid rgb(137, 137, 206);
+    text-align: justify;
+
+    width: 700px;
+    height: auto;
+
+}
+
+
+/* Prueba de modelo de caja alternativo */
+
+.alternativa{
+    box-sizing: border-box;
+    height: 150px;
+    width: 300px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+
+}
+
+
+/* prueba de modelo de caja estandar */
+.estandar{
+    height: 150px;
+    width: 300px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+}
+
+/* prueba de edicion de margenes */
+/* cree una nueva clase para que asi se haga la prueba de mejor manera */
+.box.vl{
+    border: 5px solid rgb(209, 14, 226);
+    margin: 40px;
+    padding: 0;
+
+}
+.margenes{
+    border: 2px solid black;
+
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.margen1{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.margen2{
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-right: -20px;
+    margin-bottom: -15px;
+    margin-left: -20px;
+
+}
+
+/* prueba de margenes exitosa, comprendo en su mayoria el concepto de los margenes tanto 
+psitivos como negativos */
+
+
+/* prueba de bordes editables con estilos    */
+
+
+.box.br{
+    border: 2px solid blue;
+    margin: 15px;    
+}
+
+.borde1{
+    /* prueba de grosor de bordes */
+    margin: 20px;
+    border: solid rgb(94, 94, 192);
+    border-top-width: 10px;
+    border-right-width: 20px  ;
+    border-bottom-width: 30px;
+    border-left-width: 40px;
+
+}
+
+.borde2{
+    /* prueba de agregado e colores a los bordes */
+    margin: 20px;
+    /* probando vi que debo escribir solid sin ccolor para 
+    que se haa visible el borde */
+    border: 20px solid; 
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-bottom-color: blueviolet;
+    border-left-color: black;
+}
+
+.borde3{
+    /* prueba de estilo de bordes */
+    margin: 20px;
+    border: 25px solid;
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: inherit;
+}
+
+
+/* prueba de acolchado de las cajas */
+
+.box.pd{
+    margin: 20px;
+    border: 5px solid black;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.acolchado{
+    margin: 5px;
+    border: 5px solid blueviolet;
+    padding-top: 10px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    height: 150px;
+    width:700px
+}
+/* pruebas exitosas en el uso de margin,padding y border */
+

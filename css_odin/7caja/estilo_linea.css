@@ -1,0 +1,53 @@
+
+body{
+    border: 5px solid red;
+}
+
+
+div{
+    padding: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0) ;
+    text-align: center;
+    border: 5px solid red;
+
+}
+
+.introduccion{
+    background-color: aqua;
+    border: 5px solid red;
+
+}
+
+.desarrollo{
+    background-color: cadetblue;
+    border: 5px solid red;
+
+}
+
+.conclucion{
+    background-color: turquoise;
+    border: 5px solid red;
+
+}
+
+/* muestra de otro tipo de visualizacion */
+
+.vista{
+    background-color: rgb(91, 224, 64);
+    border: 5px solid red;
+
+}
+
+
+/* se me ocurrio que le podia dar estilo a ambas cajas para ver como es el 
+estilo final, y asi es */
+.ejemplo2{
+    background-color: rgb(200, 224, 64);
+    border: 5px solid red;
+}
+
+.otra{
+    background-color: rgb(224, 173, 64);
+    border: 5px solid red;
+}

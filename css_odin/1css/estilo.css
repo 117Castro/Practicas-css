@@ -1,0 +1,23 @@
+div {
+  color:white;
+  background-color:red ;  
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+
+
+}
+
+p{
+    color:rgb(9, 66, 9);
+    background-color: rgb(33, 122, 199);
+    font-size:18px;
+
+}
+
+button{
+    color: azure;
+    background-color: rgb(212, 0, 255);
+    font-size: 20px;
+    
+}

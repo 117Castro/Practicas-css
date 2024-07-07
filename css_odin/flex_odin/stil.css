@@ -1,0 +1,50 @@
+ /* *{
+    border: 2px solid red;
+}    */
+/* Css para el estilo usado en el menu de acceso rapido de las pruebas de flex */
+body{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+.tema{
+    padding: 5px 3px;
+    color: chocolate;
+    background: blanchedalmond top left;
+    text-align: center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px double black;
+
+}
+
+.tipo-letra{
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.block{
+    margin-top: 8px;
+    padding: 4px;
+    display: flex;
+    gap: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.block .menu{
+    border: 3px solid black;
+    flex: auto;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(167, 37, 37);
+}

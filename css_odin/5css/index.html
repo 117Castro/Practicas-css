@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index de combinadores</title>
+        <link rel="stylesheet" href="styl.css">
+
+    </head>
+    <body>
+        <!-- este es el modelo incorrecto de etiquetaya que no funcionara, debe serr por gerarquia por que
+        si no se hace por gerarquia no funcionara el css  -->
+                <!-- <div class="contenedor"><p class="text">Prueba de combinadores</p></div> -->
+        <div class="contenedor">
+            <p class="text">Prueba de combinadores</p>
+        </div>
+
+        <p class="text">Prueba de combinaciones, esto se supone que es combinacion dentre de diz esta un semengo de hijo con la etiqueta de p </p>
+        <p class="text">Y al mismo tiempo hay etiquetas fuera de div de tipo p</p>
+<!-- ya comprendo, son combinadores descendientes, al tener una clase dentro de otra clase el css va a tomar el encadenado como gerarquia y  -->
+<!-- va aa editar solo el texto dentro de essa combinacion descendiennte -->
+        <div class="contenedor">
+            <p class="tex">Ya entiendo</p>
+        </div>
+        <p class="text">son los comvinadores decendientes, es decir abuelo, hijo y nieto</p>
+        <p>practicamente las clases dentro de las etiquetas de texto p no estaran seleccionaas en el css pq la combinacion decendente es como el encadenado  pero solo se toman en cuenta las que estan por gerarquia</p>
+        <p>es mas facil verlo que explicarlo</p>
+    </body>
+</html>

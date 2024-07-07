@@ -1,0 +1,24 @@
+
+/* nota extremadamente importante, colocar el punto antesde la clase, lo olvide */
+/* los elementos van sin punto, las clases van con punto */
+
+.clas1{
+    background-color: rgb(68, 110, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plus{
+    font-size: 24px;
+    
+}
+
+#uno{
+    background-color: bisque;
+    font-size: 36px;
+
+}
+
+#dos{
+    background-color: rgb(32, 143, 143);
+    font-weight: bold;
+}

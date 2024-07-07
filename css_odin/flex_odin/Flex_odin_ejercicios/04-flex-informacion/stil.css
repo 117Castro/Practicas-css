@@ -1,0 +1,35 @@
+/* *{
+    border: 2px solid red;
+} */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.titel{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.info{
+    max-width: 200px;
+}

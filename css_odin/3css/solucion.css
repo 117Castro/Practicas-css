@@ -1,0 +1,23 @@
+/* estoy agrupando las clases para que tengan el mismo tipo de letra pero separo los colores y fondos */
+
+.odd,.inver,.fancy {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+
+}
+
+.odd{
+    color: red;
+}
+
+.fancy{
+    background-color: gold;
+    color: black;
+
+}
+
+.inver{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

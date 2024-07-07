@@ -1,0 +1,32 @@
+/* solo queria replicar el css de una pagina de ejemplo de odin
+que con un simple css se logra un resultado agradable */
+
+body{
+    width: 500px    ;
+    margin: 0 auto;
+    
+    
+}
+
+p{
+    background-color: darksalmon;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+span{
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+
+/* para ver margenes y fondo aqui */
+/* *{
+    border: 2px solid black;
+} 
+body{
+    background-color: aqua;
+} */

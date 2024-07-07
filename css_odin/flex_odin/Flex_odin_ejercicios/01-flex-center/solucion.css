@@ -1,0 +1,33 @@
+
+
+/* CSS: centrar una caja flex  */
+.container{
+    margin: 10px auto;
+    max-width: 500px;
+    height: 300px;
+    background: blue;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 150px;
+    background: red;
+    border: 3px solid black;
+    text-align: center;
+
+
+}
+
+
+.container{
+    display: flex;
+
+}
+

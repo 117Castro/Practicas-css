@@ -1,0 +1,24 @@
+/* para que el css por gerarquia funcione debe haber un espacio de barra
+entre cada clase para que el css lo tome como una gerarquia como tal */
+
+/* si se pone como una cadena no funcianara bien el css y tomara como
+mayor la ultima clase que escribas */
+.contenedor .text{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.posdata{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+
+
+

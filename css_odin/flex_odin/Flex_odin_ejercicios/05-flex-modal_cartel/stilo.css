@@ -1,0 +1,136 @@
+/* *{
+    border: 2px solid red;
+} */
+
+/* prueba propia */
+
+
+html body{
+    /* height: 100vh; prueba de experimento de la leccion siguiente, (viewport height) */
+    height: 100%;
+
+}
+
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #aaa;
+    color: #333;
+    
+
+    /* posicionar el contenido con un tamaño asisnado dentro del body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal{
+    margin-top: 60px;
+    background-color: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+
+}
+
+.icon{
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: lavender;
+
+
+    /* medir el borde */
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+
+    /* para ubicar el texto del div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.close-button{
+
+    background-color: #eee;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    border: 1px solid white;
+
+
+    /* ubicar en el cntro del boton */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    /* en los botones por estetica es bueno colocar el padding */
+
+    border-radius: 8px;
+}
+
+
+.continuar{
+    background-color: royalblue;
+    color: white;
+    border: 1px solid royalblue;
+}
+
+.cancelar{
+    background-color: white;
+    color: royalblue;
+    border: 1px solid #ddd;
+}
+
+
+/* modificando el flex para alinear todos los elementos dentro del contenedor */
+
+.modal{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+
+.icon{
+    flex-shrink: 0;
+}
+
+/* -------------------------------------------- */
+/* Esta parte mueve todo, al hacer flexible esta parte el flex del modal
+hara que los demas div se acomoden dentro del contenedor */
+.header{
+    /* border: 1px solid red; */
+
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+    /* adicion del flex para ajustar al weight del contenedor */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------------------------------------------ */
+
+.text{
+
+    margin-bottom: 16px;
+}

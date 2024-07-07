@@ -1,0 +1,66 @@
+
+/* Esta linea se usa con el objetivo de visualizar las cajas con
+ las que estan compuestas las diferentes capas de textos y agregados de 
+ la web */
+*{
+outline: 2px solid red; 
+}
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+
+/* linea N15 y no tiene contradiccion, color negro y ancho de la letra  */
+.text,.para{
+    color: black;
+    font-weight: 800;
+
+}
+
+
+/* este toma  la linea 13 de 2cascada y modifica el tamaño de la letra
+tomanolo como clase padre en clase text*/
+.text{
+    font-size: 22px ;
+
+}
+
+
+/* tomo como clase boton, espesifica el tamaño de la html que tanga la clase boton
+afectara en general */
+.boton{
+    color: rgb(0, 0, 0);
+    font-weight: 100    ;
+    font-size: 22px;
+}
+
+
+/* linea N21 2cascada el selector es de tipo seguido de una clase y afectara a todos los 
+div que tengan esta clase mientras no tengan contradiccion  */
+div.tex{
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 22px;
+}
+
+/* esta css escala a la llinea N15 de 2cascada, la gerarquia que toma la cascada es 
+ clase text como padre y para como el hijo */
+.text.para{
+    font-size: 14px;
+    font-weight: 8000;
+
+}
+
+
+
+/* el selector con la mayo gerarquia el ID, afectara unicamente al que tenga este id
+en especifico */
+#confir-boton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}

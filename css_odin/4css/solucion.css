@@ -1,0 +1,19 @@
+.avatar.proporcionado{
+    height: auto;
+    width: 1000px;
+    
+
+}
+
+.avatar.distorcionado{
+    height: 510px;
+    width: 300px;
+
+}
+
+.odd{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
