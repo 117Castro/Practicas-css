@@ -100,7 +100,7 @@ ul{
 .content{
     
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-left: 4px;
     padding-bottom: 16px;
