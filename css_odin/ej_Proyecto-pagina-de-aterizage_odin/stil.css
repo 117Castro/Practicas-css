@@ -71,7 +71,7 @@ ul{
 }
 
 .text{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #E5E7EB;
     font-size: 18px;
     padding-bottom: 8PX;
@@ -119,7 +119,7 @@ ul{
 /* container-info            area de inagenes e informacion. */
 
 .container-info{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 16px;
     text-align: center;
 
@@ -173,7 +173,7 @@ ul{
 
 .verso{
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .autor{
@@ -200,7 +200,7 @@ ul{
 
 .modal{
     
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cartel{
