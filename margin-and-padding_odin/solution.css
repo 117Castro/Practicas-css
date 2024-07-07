@@ -1,0 +1,70 @@
+/* aplicando colores de fondo a las cajas */
+body{
+    background-color: azure;
+    font-family: sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+
+/* al jugar con margin puedo colocar el contenido en la dispocicion 
+que yo quiera, el primer termino dirige el margen superior e inferior
+y es segundo termino dirige el margen delos laterarles */
+.carta{
+    max-width: 400px;
+    background-color: rgb(220, 245, 245);
+    margin: 10px auto; 
+}
+.titulo{
+    background-color: aqua;
+}
+
+.contenido{
+    background-color: aqua;
+}
+.button-container{
+    background-color: aqua;
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* colocando estilo y posicion a las cajas */
+
+.carta{
+    padding: 8px;
+
+}
+
+.titulo{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 22px;
+    padding: 8px;
+
+}
+
+.contenido{
+    margin-bottom: 8px;
+    padding: 16px 8px;
+
+}
+
+.button-container{
+    text-align: center;
+    padding: 8px;
+}
+
+
+button{
+    display: block;
+    margin: 1px auto;
+    padding: 8px 24px;
+    
+}
+/* genia, ahora comprendo mucho mejor el como haecr las cosas el CSS hace lo que 
+yo le pido, no lo que el quiera.*/
+/* Ya tengo una idea de como hacer para crear un inicio de cesion  */
